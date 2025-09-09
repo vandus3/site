@@ -8,9 +8,8 @@ export default function Intro(){
     return(
         <div className="center">
             <img src={bg} alt className="bg"/>
-            <div className="gradient"></div>
             <div className="intro">
-                <h1 className="title">Veli Deniz</h1>
+                <h1 className="title">Veli Deniz B.</h1>
                 <p className="title-des">Student & Developer</p>
                 <div className="links">
                     <a href="https://github.com/vandus3" target="_blank"><img src={github} className="link-img"/></a>
