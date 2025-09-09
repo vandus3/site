@@ -13,8 +13,8 @@ export default function Intro(){
                 <h1 className="title">Veli Deniz</h1>
                 <p className="title-des">Student & Developer</p>
                 <div className="links">
-                    <a href="#" target="_blank"><img src={github} className="link-img"/></a>
-                    <a href="#" target="_blank"><img src={instagram} className="link-img"/></a>
+                    <a href="https://github.com/vandus3" target="_blank"><img src={github} className="link-img"/></a>
+                    <a href="https://www.instagram.com/velidenizblck" target="_blank"><img src={instagram} className="link-img"/></a>
                 </div>
             </div>
         </div>
