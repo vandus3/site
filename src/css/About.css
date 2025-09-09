@@ -1,0 +1,29 @@
+.about{
+    height: 50%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-center{
+    height: 25%;
+    width: 75%;
+    margin: 1rem;
+}
+.about-text{
+    font-weight: 700;
+    font-style: bold;
+    font-size: 3.7rem;
+    color: #fff;
+    margin: 2rem;
+    line-height: 5rem;
+}
+.red{
+    color:#C41E3A;
+}
+.purple{
+    color:#5a5a87;
+}
+.blue{
+    color: #007BA7;
+}

@@ -26,14 +26,15 @@
     color: hsla(0, 0%, 100%, .5);
 }
 .bg{
-    object-fit: fill;
+    object-fit: cover;
     width: 100%;
     z-index: 0;
     position:absolute;
     inset: 0;
-    height: auto;
+    max-height: 100vh;
     max-width: 100%;
     display: block;
+    object-position: bottom;
 }
 .links{
     display:flex;
