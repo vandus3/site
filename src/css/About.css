@@ -1,14 +1,10 @@
 .about{
     height: 50%;
-    width: 100%;
     display:flex;
     align-items: center;
     justify-content: center;
-}
-.about-center{
-    height: 25%;
-    width: 75%;
-    margin: 1rem;
+    flex-direction: column;
+    padding: 0 12.5%;
 }
 .about-text{
     font-weight: 700;
