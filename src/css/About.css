@@ -5,6 +5,7 @@
     justify-content: center;
     flex-direction: column;
     padding: 0 12.5%;
+    cursor: default;
 }
 .about-text{
     font-weight: 700;

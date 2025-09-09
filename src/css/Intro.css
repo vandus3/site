@@ -6,6 +6,7 @@
     z-index: 20;
     height: 100vh;
     overflow: hidden;
+    cursor: default;
 }
 .intro{
     position: relative;
@@ -35,6 +36,7 @@
     max-width: 100%;
     display: block;
     object-position: bottom;
+    pointer-events: none;
 }
 .links{
     display:flex;
