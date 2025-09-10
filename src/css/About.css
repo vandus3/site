@@ -19,6 +19,7 @@
   font-size: 5rem;
   color: #fff;
   opacity: 0.5;
+  user-select: none;
 }
 .red {
   color: #c41e3a;
