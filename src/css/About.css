@@ -1,26 +1,32 @@
-.about{
-    height: 50%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 12.5%;
-    cursor: default;
+.about {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 12.5%;
+  cursor: default;
 }
-.about-text{
-    font-weight: 700;
-    font-style: bold;
-    font-size: 3.7rem;
-    color: #fff;
-    margin: 2rem;
-    line-height: 5rem;
+.about-text {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 3.7rem;
+  color: #fff;
+  margin: 2rem;
+  line-height: 5rem;
 }
-.red{
-    color:#C41E3A;
+.about-title {
+  font-size: 5rem;
+  color: #fff;
+  margin: 1rem;
+  opacity: 0.5;
 }
-.purple{
-    color:#5a5a87;
+.red {
+  color: #c41e3a;
 }
-.blue{
-    color: #007BA7;
+.purple {
+  color: #5a5a87;
+}
+.blue {
+  color: #007ba7;
 }
