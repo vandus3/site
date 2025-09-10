@@ -1,75 +1,82 @@
 .repos-container {
-  padding: 20px;
-  min-height: 100vh;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 12.5%;
+  cursor: default;
+  gap: 32px;
+  margin-top: 96px;
 }
 .repos-cards {
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
-  justify-content: center;
   margin-top: 50px;
 }
 .repos-title {
-  text-align: center;
-  font-size: 5rem;
+  font-size: 2rem;
   color: #fff;
-  opacity: 0.5;
-  cursor: default;
+  opacity: 0.4;
   user-select: none;
+  text-align: left;
+  width: 100%;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 .card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 16px;
-  width: 300px;
-  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
-  transition: box-shadow 0.3s, border-color 0.3s;
-  background-color: rgba(116, 116, 116, 0.079);
-  backdrop-filter: blur(10px);
+  background-color: #0e0e11;
+  border-radius: 9px;
+  padding: 32px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  width: 525px;
+  transition: all 0.3s ease;
+  border: 0.5px solid #494959;
 }
 .card-title {
-  font-size: 2em;
-  margin-bottom: 8px;
-  color: #fff;
+  font-size: 36px;
   font-weight: 600;
-  text-transform: capitalize;
-  cursor: default;
-  user-select: none;
+  text-transform: uppercase;
+  color: #ffffff66;
+  transition: all 0.3s ease;
 }
 .card-description {
-  font-size: 1.5em;
-  color: #fff;
-  opacity: 0.7;
-  min-height: 60px;
-  cursor: default;
-  user-select: none;
-  transition: opacity 0.3s;
-  margin-bottom: 12px;
+  font-size: 26px;
+  font-weight: 400;
+  color: #ffffff80;
+  padding-top: 36px;
+  line-height: 1.4;
+  transition: all 0.3s ease;
 }
-.card-description:hover {
-  opacity: 1;
-}
-.card-link {
-  display: inline-block;
+
+.card-arrow {
+  width: 10px;
+  height: 10px;
   margin-top: 12px;
-  color: #fff;
-  text-decoration: none;
-  opacity: 0.7;
-  transition: color 0.3s, opacity 0.3s, letter-spacing 0.3s, border-bottom 0.3s;
-  letter-spacing: 0.05px;
-  font-size: 1.2em;
-  font-weight: 500;
-  padding-bottom: 2px;
-  cursor: pointer;
+  transform: translateX(0px);
+  color: white;
+  align-self: flex-end;
+  transition: all 0.3s ease;
+  padding: 5px;
+  background: #ffffff33;
+  border-radius: 8px;
+  padding: 10px;
+  user-select: none;
+}
+.card:hover .card-arrow {
+  transform: translateX(5px);
+  box-shadow: 0 0 8px #ffffff33;
+}
+.card:hover .card-title {
+  color: #ffffff;
+}
+.card:hover .card-description {
+  color: #ffffff;
 }
 .card:hover {
-  box-shadow: 0 4px 10px rgba(0, 122, 204, 0.5);
-  border-color: #007acc;
-}
-.card-link:hover {
-  color: #007acc;
-  opacity: 1;
-  letter-spacing: 0.09px;
-  text-decoration: none;
-  cursor: pointer;
+  box-shadow: 0 0 8px #00000033;
+  transform: translateY(-4px);
+  border: 0.5px solid #575769;
 }

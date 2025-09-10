@@ -1,4 +1,5 @@
 import "../css/Repos.css";
+import arrow from "../assets/arrow.svg";
 import { use, useEffect, useState } from "react";
 type Repo = {
   id: number;
@@ -17,25 +18,18 @@ export default function Repos() {
       .catch((error) => console.error("Error fetching repos:", error));
   }, []);
 
-  const repoName = repos[0]?.name || "Loading...";
-  const repoDesc = repos[0]?.description || "Loading description...";
-  const repoLink = repos[0]?.html_url || "#";
   // create a card for every repository yaptık
   return (
     <div className="repos-container">
       <h1 className="repos-title">My Repositories</h1>
       <div className="repos-cards">
-        {repos.map((repo) => (
-          <div className="card" key={repo.id}>
-            <h1 className="card-title">
-              {repo.name.charAt(0).toUpperCase() + repo.name.slice(1)}
-            </h1>
-            <p className="card-description">{repo.description}</p>
-            <a href={repo.html_url} className="card-link">
-              View Repository
-            </a>
-          </div>
-        ))}
+        <a href="" className="card">
+          <h2 className="card-title">özgürün reposu</h2>
+          <p className="card-description">
+            bir gün bir özgür başka bir özgüre gel beraber özgürleyelim demiş
+          </p>
+          <img src={arrow} className="card-arrow" />
+        </a>
       </div>
     </div>
   );
