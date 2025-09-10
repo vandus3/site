@@ -1,58 +1,58 @@
-.center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 20;
-    height: 100vh;
-    overflow: hidden;
-    cursor: default;
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 20;
+  height: 100vh;
+  overflow: hidden;
+  cursor: default;
 }
-.intro{
-    position: relative;
-    z-index: 20;
+.intro {
+  position: relative;
+  z-index: 20;
 }
-.title{
-    font-size: 4.5rem;
-    line-height: 1;
-    font-weight: bold;
-    letter-spacing: -.025em;
-    color:#fff;
+.title {
+  font-size: 4.5rem;
+  line-height: 1;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  color: #fff;
 }
-.title-des{
-    font-size: 1.5rem;
-    line-height: 2rem;
-    text-align: center;
-    margin-top: .75rem;
-    color: hsla(0, 0%, 100%, .5);
+.title-des {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+  margin-top: 0.75rem;
+  color: hsla(0, 0%, 100%, 0.5);
 }
-.bg{
-    object-fit: cover;
-    width: 100%;
-    z-index: 0;
-    position:absolute;
-    inset: 0;
-    max-height: 100vh;
-    max-width: 100%;
-    display: block;
-    object-position: bottom;
-    pointer-events: none;
+.bg {
+  object-fit: cover;
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+  inset: 0;
+  max-height: 100vh;
+  max-width: 100%;
+  display: block;
+  object-position: bottom;
+  pointer-events: none;
 }
-.links{
-    display:flex;
-    margin-top: .75rem;
-    align-items: center;
-    justify-content: center;
-    gap: .75rem;
+.links {
+  display: flex;
+  margin-top: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
 }
-.link-img{
-    opacity:.5;
-    width: 1.25rem;
-    height: 1.25rem;
-    max-width: 100%;
-    display: block;
-    transition: .15s opacity cubic-bezier(.4,0,.2,1);
+.link-img {
+  opacity: 0.5;
+  width: 1.25rem;
+  height: 1.25rem;
+  max-width: 100%;
+  display: block;
+  transition: 0.15s opacity cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-img:hover{
-     opacity: .75;  
+.link-img:hover {
+  opacity: 0.75;
 }
