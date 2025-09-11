@@ -3,6 +3,7 @@ import Lenis from "lenis";
 import Intro from "./components/Intro";
 import About from "./components/About";
 import Repos from "./components/Repos";
+import Footer from "./components/Footer";
 
 export default function App() {
   const lenis = new Lenis({
@@ -17,6 +18,7 @@ export default function App() {
       <Intro />
       <About />
       <Repos />
+      <Footer />
     </div>
   );
 }

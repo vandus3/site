@@ -17,8 +17,6 @@ export default function Repos() {
       .then((data) => setRepos(data))
       .catch((error) => console.error("Error fetching repos:", error));
   }, []);
-
-  // create a card for every repository
   return (
     <div className="repos-container">
       <h1 className="repos-title">My Repositories</h1>
