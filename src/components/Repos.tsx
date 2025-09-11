@@ -18,18 +18,28 @@ export default function Repos() {
       .catch((error) => console.error("Error fetching repos:", error));
   }, []);
 
-  // create a card for every repository yaptık
+  // create a card for every repository
   return (
     <div className="repos-container">
       <h1 className="repos-title">My Repositories</h1>
       <div className="repos-cards">
-        <a href="" className="card">
-          <h2 className="card-title">özgürün reposu</h2>
-          <p className="card-description">
-            bir gün bir özgür başka bir özgüre gel beraber özgürleyelim demiş
-          </p>
-          <img src={arrow} className="card-arrow" />
-        </a>
+        {repos.map((repo) => (
+          <a
+            key={repo.id}
+            href={repo.html_url}
+            className="card"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className="card-title">{repo.name}</h2>
+            <p className="card-description">
+              {repo.description
+                ? repo.description
+                : "No description available."}
+            </p>
+            <img src={arrow} className="card-arrow" />
+          </a>
+        ))}
       </div>
     </div>
   );
