@@ -5,7 +5,7 @@ export default function About() {
     <div className="about">
       <h1 className="about-title">About Me</h1>
       <p className="about-text">
-        I'm studying Electrical Engineering in Aydın,{" "}
+        I'm studying Electric-Electronic Engineering in Aydın,{" "}
         <span className="red">Türkiye</span>. I like to learn new technologies
         and concepts. Currently I'm learning{" "}
         <span className="purple">C/C++</span> and{" "}
